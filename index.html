@@ -5,16 +5,17 @@
     <title>Redirecionamento Aleatório</title>
     <script type="text/javascript">
         window.onload = function() {
+            // Lista de links para redirecionamento
             var links = [
-                "https://vm.tiktok.com/ZMh1dKrQg/",
-                "https://vm.tiktok.com/ZMh1d7fMH/",
-                "https://vm.tiktok.com/ZMh1dvj39/",
-              "https://vm.tiktok.com/ZMh1RjEDG/",
-              "https://vm.tiktok.com/ZMh1RdDJF/"
-              
-        
-           ];
+                "https://vm.tiktok.com/ZMh1R5ywS/",
+                "https://vm.tiktok.com/ZMh1RmPT5/",
+                "https://vm.tiktok.com/ZMh1R4Nun/",
+                "https://vm.tiktok.com/ZMh1Rxjo7/",
+                "https://vm.tiktok.com/ZMh1Rax23/"
+            ];
+            // Seleciona um link aleatório
             var randomLink = links[Math.floor(Math.random() * links.length)];
+            // Redireciona para o link selecionado
             window.location.href = randomLink;
         };
     </script>
